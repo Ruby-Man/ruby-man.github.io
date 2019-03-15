@@ -19,7 +19,7 @@ body {
 }
 
 .hero {
-   width: 1180px;
+   width: 100vw;
    height: 600px;
    position: absolute;
    top: 270px;

@@ -6,7 +6,7 @@ body {
 #container {
    background-color: #f1f1f1;
    position: relative;
-   width: 100%;
+   width: 100vw;
    height: 900px;
 }
 

@@ -1,47 +1,54 @@
 body {
+   width: 1440px;
    background-color: transparent;
-   text-align: center;
-   margin: 0;
 }
 
 #container {
-   background-color: #fff;
+   background-color: #f1f1f1;
    position: relative;
    width: 100vw;
-   height: 1000px;
+   height: 900px;
 }
 
 .imglogo {
-   display: inline-block;
-   width: 218px;
-   height: 101px;
-   position: relative;
-   margin-top: 60px;
+   width: 258px;
+   height: 141px;
+   position: absolute;
+   top: 50px;
+   left: 600px;
 }
 
 .hero {
-   display: inline-block;
-   width: 100vw;
-   position: relative;
-   margin-top: 20px;
+   width: 1180px;
+   height: 600px;
+   position: absolute;
+   top: 270px;
+   left: 113px;
+}
+
+#navbar {
+   border: 0;
+   border-top: 5px solid #cbcbcb;
+   margin: 1em 0;
+   padding: 0;
 }
 
 nav {
-   position: absolute;
-   top: 1%;
-   left: 0;
-   height: 40px;
-   width: 100%;
-   display: flex;
-   justify-content: center;
+   position: relative;
+   float: left;
+   top: -680px;
+   left: 420px;
+   width: 50%;
+   font-family: Lato, sans-serif;
+   font-weight: 300;
+   font-size: 20px;
 }
 
 nav ul {
-   font-family: Lato, sans-serif;
-   font-weight: 300;
-   font-size: 15px;
-   width: 800px;
+   width: 100%;
    list-style: none;
+   margin: 0;
+   padding: 0;
 }
 
 nav ul li {
@@ -50,6 +57,7 @@ nav ul li {
 }
 
 nav ul li a {
+   display: block;
    color: #808080;
 }
 
@@ -61,96 +69,23 @@ nav ul li a {
 h1 {
    font-family: 'Avenir Next Condensed', Nunito, sans-serif;
    font-weight: 500;
-   font-size: 5vw;
-   color: #fedcd2;
-   float: left;
-   position: absolute;
-   top: 40%;
-   left: 16%;
-   margin: 0;
-   padding: 0;
+   font-size: 70px;
+   color: #808080;
+   text-align: center;
+   position: relative;
+   margin-top: 100px;
+   margin-bottom: 0;
 }
 
 p {
    font-family: 'Avenir Next Condensed', Nunito, sans-serif;
    font-weight: 200;
-   font-size: 2vw;
-   color: #fff;
-   float: left;
-   position: absolute;
-   top: 50%;
-   left: 16%;
-   margin: 0;
-   padding: 0;
-}
-
-@media (min-width: 200px) and (max-width: 380px) {
-   body {
-      background-color: transparent;
-      text-align: center;
-      margin: 10px;
-   }
-
-   h1 {
-      display: flex;
-      font-family: 'Avenir Next Condensed', Nunito, sans-serif;
-      font-weight: 500;
-      font-size: 5vw;
-      color: #fedcd2;
-      float: left;
-      position: absolute;
-      top: 25%;
-      left: 16%;
-      margin: 0;
-      padding: 0;
-   }
-
-   p {
-      font-family: 'Avenir Next Condensed', Nunito, sans-serif;
-      font-weight: 200;
-      font-size: 3vw;
-      color: #fff;
-      float: left;
-      position: absolute;
-      top: 28%;
-      left: 16%;
-      margin: 0;
-      padding: 0;
-   }
-}
-
-@media (min-width: 380px) and (max-width: 770px) {
-   body {
-      background-color: transparent;
-      text-align: center;
-      margin: 10px;
-   }
-
-   h1 {
-      font-family: 'Avenir Next Condensed', Nunito, sans-serif;
-      font-weight: 500;
-      font-size: 5vw;
-      color: #fedcd2;
-      float: left;
-      position: absolute;
-      top: 27%;
-      left: 16%;
-      margin: 0;
-      padding: 0;
-   }
-
-   p {
-      font-family: 'Avenir Next Condensed', Nunito, sans-serif;
-      font-weight: 200;
-      font-size: 3vw;
-      color: #fff;
-      float: left;
-      position: absolute;
-      top: 35%;
-      left: 16%;
-      margin: 0;
-      padding: 0;
-   }
+   font-size: 30px;
+   color: #808080;
+   text-align: center;
+   position: relative;
+   margin-top: 20px;
+   margin-bottom: 100px;
 }
 
 .About {
@@ -215,10 +150,28 @@ p {
    box-shadow: 0 0 0 3px rgb(227, 227, 227);
 }
 
+.aboutme {
+   position: relative;
+   top: 20px;
+   left: 270px;
+}
+
+.portfolioicon {
+   position: relative;
+   top: 20px;
+   left: 600px;
+}
+
+.contactme {
+   position: relative;
+   top: -5px;
+   left: 930px;
+}
+
 #container2 {
    background-color: #f1f1f1;
    position: relative;
-   top: 1000px;
+   top: 100px;
    width: 100%;
    height: 100px;
 }

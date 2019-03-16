@@ -1,6 +1,7 @@
 body {
-   width: 1440px;
    background-color: transparent;
+   text-align: center;
+   margin: 0;
 }
 
 #container {
@@ -11,19 +12,16 @@ body {
 }
 
 .imglogo {
-   width: 258px;
-   height: 141px;
-   position: absolute;
-   top: 50px;
-   left: 600px;
+   display: inline-block;
+   width: 208px;
+   height: 91px;
+   position: relative;
 }
 
 .hero {
-   width: 1180px;
-   height: 600px;
-   position: absolute;
-   top: 270px;
-   left: 113px;
+   width: 100vw;
+   position: relative;
+   top: 100px;
 }
 
 #navbar {
